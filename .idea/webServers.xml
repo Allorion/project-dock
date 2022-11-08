@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="92bb7756-35e5-407d-9e57-a484a5223b35" name="all" url="http://45.12.65.131">
+        <fileTransfer rootFolder="/home/packer" accessType="SFTP" host="45.12.65.131" port="22" sshConfigId="f3eb4dca-219b-4997-af8d-dc4cf3af8546" sshConfig="packer@45.12.65.131:22 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
